@@ -1,0 +1,120 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: cursive;
+    border-color: chocolate;
+
+}
+
+h2 {
+    font-size: 45px;
+    font-family: cursive;
+    border color: chocolate;
+}
+
+#aboutwho {
+    width: 100%;
+    height: 800px;
+    background-color: aqua;
+    backface-visibility: visible;
+}
+
+#apps {
+    width: 100%;
+    height: 800px;
+    background-color: bisque;
+    backface-visibility: visible;
+}
+
+#games {
+    width: 100%;
+    height: 800px;
+    background-color: cadetblue;
+    backface-visibility: visible;
+    color:beige;
+}
+
+#chatbot {
+    width: 100%;
+    height: 800px;
+    background-color: burlywood;
+    backface-visibility: visible;
+}
+
+img {
+    transition: transform .2s;
+   
+  
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+.line {
+    height: 6px;
+    background-color: #212;
+    width: 70px;
+    margin: 8px auto;
+
+}
+
+.bio {
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    font-family: cursive;
+    color:beige;
+    background-color: darkolivegreen;
+}
+math. {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 20%;
+}
+
+cycle.{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 20%;
+}
+
+.aboutme {
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    font-family: cursive;
+    color:beige;
+    background-color: darkolivegreen;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float:right;
+    top:10px;
+    right:20px;
+    cursor:pointer;
+    color:black;
+    position: fixed;
+    background: white;
+    width: 100%;
+    top: 0;
+    margin-top: 0;
+    z-index: 10;
+    word-spacing: 4px;
+
+    
+}
+li {
+    display:inline;
+}
+html {
+    scroll-behavior: smooth;
+}
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
